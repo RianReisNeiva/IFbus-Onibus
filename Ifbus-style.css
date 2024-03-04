@@ -4,9 +4,12 @@ body{
     background-color: #9ff95dd;/* corpo da página */
 }
 .banner{
-    flex-direction: column; /* Ajusta o layout do banner para dispositivos móveis */
-        text-align: center; /* Centraliza o texto do banner */* o banner da página */
-    
+    margin:0;
+    padding:0 ;
+    background-color:#000000;
+    display:flex;
+    align-items: center;
+    justify-content: center;/* o banner da página */
 }
 .banner-text {
   font-family: 'Lato', sans-serif;
@@ -15,25 +18,28 @@ body{
   text-align: center;
   margin:0;/* edição do texto no banner*/
 }
-/* Adaptação automática para telas de celular */
-@media screen and (max-width: 600px) {
-    .banner-text {
-        font-size: 24px; /* Ajuste o tamanho da fonte para telas menores */
-    }
 .retangulo {
     width: 100%;
-    height: 10px; 
+    height: 20px; 
     background-color: #ffc72b;/* faixa amarela embaixo do banner preto*/
 }
 footer{
-/* rodapé */
+    /* rodapé */
+    background-color: #d3d3e6;/* cor do corpo do rodapé */
     text-align: center;
     padding: 10px;
     margin-top: auto;
-    height: 70px;
+    height: 50px;
+    display: flex;
+    color:#ffffff;
+    text-shadow: 1px 1px 2px #000000;/* Contorno com sombra de 1px preta */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0; 
 }
 footer p{
-    margin: 5px 0;/* tirar margens do texto do rodapé */
+    margin: 0;/* tirar margens do texto do rodapé */
 }
 .text-inicio{
     color: black;
@@ -52,9 +58,8 @@ footer p{
     margin-top: 5px;/* edição da barra de pesquisa*/ 
 }
 #searchInput {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
+    width: 200px;
+    padding: 5px;
 }
 
 button {
@@ -81,8 +86,11 @@ button {
     /* imagens nas páginas das cidades*/
 }
 .img-inicio{
-    max-width: 100%; /* Torna a imagem responsiva */
-        height: auto;/* edição da imagem da página principal, ônibus na frente do mapa*/
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    height: 400px;
+    width: 500px;/* edição da imagem da página principal, ônibus na frente do mapa*/
 }                
 .img-onibus img{
   max-width: 100%;
@@ -103,7 +111,7 @@ button {
     height: 450px;
 }
 a{
-    margin: 10px;
+    margin: 0 20px;
     /* tamanho dos links nas páginas*/
 }
 .reclame{
@@ -111,7 +119,8 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     /* área inteiramente para zuar José Manoel*/    
 }
 .reclame img{
@@ -131,13 +140,6 @@ a{
     margin-left: 10px;
     width: 80px; 
     height: 80px;/* icones dos botões da página de Irecê*/
-}
-    /* Ajustes nos ícones da área de Irecê para telas menores */
-@media screen and (max-width: 600px) {
-    .icones-irece img {
-        width: 40px;
-        height: 40px;
-    }
 }
 .ze{
     width: 20px;
