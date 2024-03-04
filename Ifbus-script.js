@@ -30,7 +30,7 @@ function redirectToPage(keyword) {
             window.location.href = 'central.html';
             break;
         case 'ibititá':
-            window.location.href = 'ibitita.html';
+            window.location.href = 'Ibitita.html';
             break;
             
          default: 
