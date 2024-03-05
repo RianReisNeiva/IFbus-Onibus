@@ -9,7 +9,14 @@ function searchKeyword() {
         redirectToPage(keyword);
     }
 }
-
+// Adiciona um ouvinte de evento ao campo de entrada de busca para capturar a tecla "Enter"
+document.getElementById('searchInput').addEventListener('keydown', function(event) {
+    // Verifica se a tecla pressionada é "Enter"
+    if (event.key === "Enter") {
+        // Chama a função de pesquisa
+        searchKeyword();
+    }
+});
 // Função para redirecionar para a página correspondente com base na palavra-chave
 function redirectToPage(keyword) {
     // Utiliza uma instrução switch para comparar a palavra-chave e redirecionar para a página apropriada
