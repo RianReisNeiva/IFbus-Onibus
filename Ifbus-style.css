@@ -65,7 +65,7 @@ footer p{
 button {
     padding: 5px 10px;
     align-items: center;
-    margin: 0 10px;/* botão de voltar*/
+    margin: 0;/* botão de voltar*/
 }
 .lupa{
    width: 12px;
