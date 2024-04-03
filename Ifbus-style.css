@@ -40,6 +40,7 @@ footer{
 }
 footer p{
     margin: 0;/* tirar margens do texto do rodapé */
+    font-size: 10px;
 }
 .text-inicio{
     color: black;
