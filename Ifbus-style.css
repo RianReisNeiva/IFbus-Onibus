@@ -41,7 +41,7 @@ footer{
 }
 footer p{
     margin: 0;/* tirar margens do texto do rodapé */
-    font-size: 25px;
+    font-size: 15px;
 }
 .text-inicio{
     color: black;
