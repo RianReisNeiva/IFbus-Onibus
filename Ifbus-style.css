@@ -79,7 +79,8 @@ button {
 }
 .text-cidade-tl{
     text-align:center;
-    margin-right:5px;
+    margin: 5px;
+    text-justify: center;
 }
 .img-onibus{
     text-align: center;
