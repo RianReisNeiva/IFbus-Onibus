@@ -103,7 +103,6 @@ button {
   margin: 0 auto;/* edições da imagem do ônibus */  
 }
 .img-rota{
-
     text-align: center;
     margin: 20px;
 }
@@ -118,18 +117,17 @@ a{
     /* tamanho dos links nas páginas*/
 }
 .reclame{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-left: 70px;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows:30px;   
+    margin-left: 60px;
     margin-right: 5px;
+    /* área inteiramente para zuar José Manoel*/    
     /* área inteiramente para zuar José Manoel*/    
 }
 .reclame img{
     width: 50px;
     height: 50px;
-    margin-left: 3px;
     /* imagem e link do Instagram a se zuado*/  
 }
 .icones-irece{/* icones de opções página Irecê*/
