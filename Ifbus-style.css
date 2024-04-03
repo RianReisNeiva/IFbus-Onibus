@@ -143,6 +143,14 @@ a{
     width: 80px; 
     height: 80px;/* icones dos botões da página de Irecê*/
 }
+@media all and (max-width: 767px) {
+  /* Estilos para dispositivos móveis */
+  .icones-irece{/* icones de opções página Irecê*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: auto 0;
+}
 .ze{
     width: 20px;
     height: 20px;
