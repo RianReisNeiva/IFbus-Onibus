@@ -119,18 +119,30 @@ a{
 }
 .reclame{
     display:flex;
-    margin-left: 60px;
-    margin-right: 5px;
-    margin-bottom: 20px;
-    text-justify: center;
-    align-items: center;
+    justify-content: space-around;
+    
+    /* área inteiramente para zuar José Manoel*/    
 }
-.reclame img{
-    width: 50px;
-    height: 50px;
-    /* imagem e link do Instagram a se zuado*/  
+.reclame p{
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    padding-left: 60px;
+    text-align: justify;
 }
 
+.reclame img{
+    Max-width: 50px;
+    Max-height: 50px;
+    
+    /* imagem e link do Instagram a ser zuado*/  
+}
+.reclame a{
+    padding-right: 25px;
+    padding-left: 5px;
+    align-content: center;
+    
+}
 .icones-irece{/* icones de opções página Irecê*/
     display: flex;
     text-align: center;
